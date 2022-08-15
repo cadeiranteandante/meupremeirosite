@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+
+}
+#titulo{
+    font-family: 'Righteous', cursive;
+    color: rgb(255, 255, 255);
+    margin: left 7%; 
+}
+#subtitulo{
+    font-family:'Sarala', sans-serif;
+    color: rgb(245, 245, 245);
+    margin: left 10%; 
+}
+#fieldset{
+    border: 0;
+}
+#body{
+    background-color: blanchedalmond;
+    font-family:'Sarala', sans-serif;
+    font-size: 1em;
+    color: rgb(243, 253, 245);
+    margin-left: 36%;
+    margin-top: 2%;
+    justify-content: center;
+}
+input, select, button, textarea{
+border-radius: 5px;
+}
+.campo{
+    margin-bottom: 1em;
+}
+.campo label{
+    margin-bottom: 0.2em;
+    color: rgb(255, 255, 255);
+    display: block;
+}
+fieldset .grupo .campo{
+    float: left;
+    margin-right: 1em;
+}
+.campo input[type="text"] .campo input[type="email"] .campo select .campo textarea{
+    padding: 0.2em;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 2px 2px 2px; rgb 0, 17, 4
+    display: block;
+}
+.campo select option{
+    padding-right: 1em;
+}
+.campo input:focus, .campo select:focus, .campo textarea:focus{
+    background-color: rgb(241, 227, 192);
+} 
+.botao{
+    font-size: 1.2em;
+    background: rgb(248, 189, 189);;
+    border: 0; 
+    margin-bottom: 1em; 
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px #000;
+    text-shadow:1px 1px 1px #000;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-right: right -50%; 
+    transform: translate(-50%, -50%);
+}
+.botao :hover{
+background-color: bisque;
+box-shadow: inset 2px 2px 2px #000;
+text-shadow: none;
+}
+#check{
+    display: inline-block;
+}
+
+.conteudo-img{
+    height: 430px;
+}
+ 
+.box-degrade{
+
+    background-image: linear-gradient(to left, rgb(191, 228, 27) rgb(87, 238, 0));
+
+}
+.body{
+    background-image:url(wallpaperbetter.com_1920x1080.png);
+}
